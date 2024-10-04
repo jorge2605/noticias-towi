@@ -1,0 +1,30 @@
+.body{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.body p {
+    text-align: left;
+}
+
+.titulo {
+    font-size: 32px;
+    color: rgb(0, 116, 184);
+    text-shadow: 2px 4px 5px rgba(126, 126, 126, 0.5) ;
+    margin-left: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.descripcion {
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 0.5px;
+}
