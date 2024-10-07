@@ -1,0 +1,12 @@
+.header{
+    position: fixed;
+    top: 5PX;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 80px; /* Ajusta la altura según tu necesidad */
+    background-color: #103656; /* Color de fondo opcional */
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 8px 8px 6px #00000050;
+}

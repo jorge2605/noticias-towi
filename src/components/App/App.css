@@ -1,0 +1,27 @@
+html, body {
+    height: 100%; /* Para asegurarnos que el body ocupe toda la pantalla */
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#103656, #ffffff 40%);
+  }
+  
+  .header {
+    text-align: center;
+    /* Estilos específicos para Header */
+  }
+  
+  .body {
+    flex-grow: 1; /* Hace que el Body ocupe todo el espacio restante */
+    justify-content: center;
+    align-items: center; /* Centra el contenido dentro del Body */
+  }
+  
+  .footer {
+    text-align: center;
+    /* Estilos específicos para Footer */
+  }
